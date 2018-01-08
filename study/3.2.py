@@ -1,6 +1,7 @@
 #3-4
 names = ["Jay", "Tom", "Adel"];
 print(names)
+print(len(names))
 
 #3-5
 sickOne = "Tom";
@@ -26,10 +27,12 @@ print(names);
 
 #3-7
 print("But something is EMERGCY, Three people can come!!!")
+print(len(names))
 names.pop();
 names.pop();
 names.pop();
 names.pop();
+print(len(names))
 print(names);
 print(names[0] + "is lucky!")
 print(names[1] + "is lucky!")
